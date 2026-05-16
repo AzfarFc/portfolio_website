@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium portfolio showcasing modern web design and development expertise. Crafted with elegance and precision.">
+    <meta name="keywords" content="web design, web development, portfolio, UI/UX, modern design">
+    <meta name="author" content="Alexander Chen">
+    <meta name="theme-color" content="#0a0e27">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Alexander Chen - Premium Web Design & Development">
+    <meta property="og:description" content="Discover exceptional web design and development projects that blend artistry with functionality.">
+    <meta property="og:image" content="https://yoursite.com/og-image.jpg">
+    <meta property="og:url" content="https://yoursite.com">
+    <meta property="og:site_name" content="Alexander Chen Portfolio">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alexander Chen - Premium Web Design & Development">
+    <meta name="twitter:description" content="Discover exceptional web design and development projects.">
+    <meta name="twitter:image" content="https://yoursite.com/og-image.jpg">
+    
+    <title>Alexander Chen - Premium Web Design & Development Portfolio</title>
+    <link rel="stylesheet" href="portfolio_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alexander Chen",
+        "url": "https://yoursite.com",
+        "image": "https://yoursite.com/profile.jpg",
+        "jobTitle": "Web Designer & Developer",
+        "description": "Premium web design and development specialist",
+        "sameAs": [
+            "https://linkedin.com/in/yourprofile",
+            "https://github.com/yourprofile",
+            "https://twitter.com/yourprofile"
+        ],
+        "contact": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Service",
+            "email": "hello@yoursite.com",
+            "telephone": "+1-555-123-4567"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#home" class="logo">AC.</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link nav-cta">Get in Touch</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-tag">Welcome to my portfolio</div>
+                <h1 class="hero-title">
+                    <span class="text-gradient">Crafting Digital</span>
+                    <span class="text-stroke">Experiences</span>
+                </h1>
+                <p class="hero-description">
+                    I create elegant, modern web experiences that bridge the gap between stunning design and seamless functionality. Every pixel has purpose.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="gradient-circle circle-1"></div>
+                <div class="gradient-circle circle-2"></div>
+                <div class="gradient-circle circle-3"></div>
+                <svg class="geometric-shape" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="shapeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.3" />
+                            <stop offset="100%" style="stop-color:#00ffaa;stop-opacity:0.3" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M 200 50 L 350 150 L 350 350 L 50 350 L 50 150 Z" fill="none" stroke="url(#shapeGradient)" stroke-width="2"/>
+                    <circle cx="200" cy="200" r="100" fill="none" stroke="url(#shapeGradient)" stroke-width="1" opacity="0.5"/>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Who I am and what I do</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        With over 6 years of experience in web design and development, I've had the privilege of helping businesses and brands establish their digital presence with elegance and impact. I believe in creating experiences that don't just look beautiful, but feel intuitive and perform flawlessly.
+                    </p>
+                    <p>
+                        My approach combines meticulous attention to detail with a deep understanding of user behavior and modern web technologies. Every project is a collaboration that starts with understanding your vision and ends with exceeding your expectations.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 class="stat-number">120+</h3>
+                            <p class="stat-label">Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat-number">95%</h3>
+                            <p class="stat-label">Client Satisfaction</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat-number">6+</h3>
+                            <p class="stat-label">Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-placeholder">
+                        <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="profileGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00d4ff" />
+                                    <stop offset="100%" style="stop-color:#00ffaa" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="150" cy="150" r="140" fill="none" stroke="url(#profileGradient)" stroke-width="2"/>
+                            <circle cx="150" cy="100" r="40" fill="url(#profileGradient)" opacity="0.3"/>
+                            <path d="M 110 200 Q 150 240 190 200" fill="none" stroke="url(#profileGradient)" stroke-width="2" opacity="0.5"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I master</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <polyline points="9 22 9 12 15 12 15 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">Frontend Development</h3>
+                    <p class="skill-desc">HTML5, CSS3, JavaScript ES6+, React, Vue.js, Responsive Design</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">UI/UX Design</h3>
+                    <p class="skill-desc">Figma, Adobe XD, Wireframing, Prototyping, User Research</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" fill="currentColor" opacity="0.3"/>
+                            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">Backend Development</h3>
+                    <p class="skill-desc">Node.js, Express, MongoDB, PostgreSQL, RESTful APIs</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 6v6l4 2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">Performance & SEO</h3>
+                    <p class="skill-desc">Web Vitals, Optimization, Analytics, Schema Markup</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">Version Control</h3>
+                    <p class="skill-desc">Git, GitHub, GitLab, CI/CD, Deployment Automation</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 8v8m4-4H8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title">Web Animation</h3>
+                    <p class="skill-desc">GSAP, Three.js, Framer Motion, CSS Animations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Handpicked work that showcases my expertise</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="project1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#667eea" />
+                                    <stop offset="100%" style="stop-color:#764ba2" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="300" fill="url(#project1)"/>
+                            <circle cx="200" cy="150" r="80" fill="white" opacity="0.1"/>
+                            <rect x="100" y="100" width="200" height="100" fill="none" stroke="white" stroke-width="2" opacity="0.3"/>
+                        </svg>
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%23667eea' width='400' height='300'/%3E%3C/svg%3E" alt="Project: Modern E-Commerce Platform" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Modern E-Commerce Platform</h3>
+                        <p class="project-description">A sophisticated online marketplace with real-time inventory management, dynamic pricing, and seamless payment integration.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="project2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#f093fb" />
+                                    <stop offset="100%" style="stop-color:#f5576c" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="300" fill="url(#project2)"/>
+                            <circle cx="100" cy="100" r="60" fill="white" opacity="0.1"/>
+                            <rect x="50" y="180" width="300" height="80" fill="white" opacity="0.05"/>
+                        </svg>
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%23f093fb' width='400' height='300'/%3E%3C/svg%3E" alt="Project: Creative Agency Website" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Creative Agency Website</h3>
+                        <p class="project-description">An elegant portfolio site with interactive animations, smooth scrolling, and immersive design showcasing creative capabilities.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="project3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4facfe" />
+                                    <stop offset="100%" style="stop-color:#00f2fe" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="300" fill="url(#project3)"/>
+                            <path d="M 50 250 Q 200 50 350 250" fill="none" stroke="white" stroke-width="2" opacity="0.3"/>
+                            <circle cx="200" cy="150" r="40" fill="white" opacity="0.1"/>
+                        </svg>
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%234facfe' width='400' height='300'/%3E%3C/svg%3E" alt="Project: SaaS Dashboard Application" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SaaS Dashboard Application</h3>
+                        <p class="project-description">A comprehensive analytics dashboard with real-time data visualization, user authentication, and intuitive controls.</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">Chart.js</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="project4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#fa709a" />
+                                    <stop offset="100%" style="stop-color:#fee140" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="300" fill="url(#project4)"/>
+                            <g opacity="0.2">
+                                <circle cx="80" cy="60" r="30"/>
+                                <circle cx="320" cy="240" r="50"/>
+                            </g>
+                        </svg>
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%23fa709a' width='400' height='300'/%3E%3C/svg%3E" alt="Project: Mobile App Landing Page" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mobile App Landing Page</h3>
+                        <p class="project-description">A conversion-focused landing page with compelling copy, smooth animations, and mobile-optimized design.</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Tailwind</span>
+                            <span class="tag">Vercel</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What I Offer</h2>
+                <p class="section-subtitle">Comprehensive solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <h3 class="service-title">Web Design</h3>
+                    <p class="service-description">
+                        Beautiful, functional designs that captivate your audience and drive conversions. I create interfaces that are both aesthetically pleasing and user-friendly.
+                    </p>
+                    <ul class="service-list">
+                        <li>UI/UX Design</li>
+                        <li>Responsive Layouts</li>
+                        <li>Brand Integration</li>
+                        <li>Accessibility</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-description">
+                        Robust, scalable web applications built with modern technologies. From frontend to backend, I create solutions that perform flawlessly.
+                    </p>
+                    <ul class="service-list">
+                        <li>Full-Stack Development</li>
+                        <li>API Integration</li>
+                        <li>Database Design</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <h3 class="service-title">E-Commerce Solutions</h3>
+                    <p class="service-description">
+                        Complete e-commerce platforms that increase sales and customer satisfaction. Secure, fast, and feature-rich solutions for your business.
+                    </p>
+                    <ul class="service-list">
+                        <li>Store Setup</li>
+                        <li>Payment Integration</li>
+                        <li>Inventory Management</li>
+                        <li>Analytics & Reporting</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">04</div>
+                    <h3 class="service-title">Brand & Identity</h3>
+                    <p class="service-description">
+                        Cohesive brand identities that resonate with your target audience. Strategic design that communicates your values and vision.
+                    </p>
+                    <ul class="service-list">
+                        <li>Logo Design</li>
+                        <li>Brand Guidelines</li>
+                        <li>Visual Systems</li>
+                        <li>Marketing Materials</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">05</div>
+                    <h3 class="service-title">Performance Tuning</h3>
+                    <p class="service-description">
+                        Lightning-fast websites that rank high and convert well. I optimize every aspect for speed, accessibility, and SEO performance.
+                    </p>
+                    <ul class="service-list">
+                        <li>Speed Optimization</li>
+                        <li>SEO Enhancement</li>
+                        <li>Core Web Vitals</li>
+                        <li>Security Audits</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-number">06</div>
+                    <h3 class="service-title">Maintenance & Support</h3>
+                    <p class="service-description">
+                        Ongoing support to keep your website secure, updated, and performing optimally. Peace of mind for your digital presence.
+                    </p>
+                    <ul class="service-list">
+                        <li>Security Updates</li>
+                        <li>Bug Fixes</li>
+                        <li>Feature Additions</li>
+                        <li>24/7 Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Clients Say</h2>
+                <p class="section-subtitle">Real feedback from real projects</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Alexander transformed our outdated website into a modern masterpiece. The attention to detail and commitment to excellence is unmatched. Our conversion rates have increased by 45% since launch."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SJ</div>
+                        <div>
+                            <p class="author-name">Sarah Johnson</p>
+                            <p class="author-title">CEO, Digital Solutions Inc.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Working with Alexander was a game-changer for our brand. He not only delivered a beautiful website but also guided us through the entire process with professionalism and expertise."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MC</div>
+                        <div>
+                            <p class="author-name">Michael Chen</p>
+                            <p class="author-title">Founder, Creative Ventures</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "The website Alexander created exceeded all our expectations. It's not just beautiful—it's incredibly functional. Our clients have been raving about the experience."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ER</div>
+                        <div>
+                            <p class="author-name">Emma Roberts</p>
+                            <p class="author-title">Manager, Tech Innovations</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Exceptional talent and unwavering dedication. Alexander delivered our project on time and within budget. The quality is premium, and the support has been outstanding."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DL</div>
+                        <div>
+                            <p class="author-name">David Lee</p>
+                            <p class="author-title">Director, Global Enterprises</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to bring your vision to life? Get in touch today.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3 class="contact-label">Email</h3>
+                        <a href="mailto:hello@yoursite.com" class="contact-value">hello@yoursite.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3 class="contact-label">Phone</h3>
+                        <a href="tel:+15551234567" class="contact-value">+1 (555) 123-4567</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3 class="contact-label">Location</h3>
+                        <p class="contact-value">San Francisco, CA</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3 class="contact-label">Social</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="LinkedIn">LinkedIn</a>
+                            <a href="#" class="social-link" aria-label="GitHub">GitHub</a>
+                            <a href="#" class="social-link" aria-label="Twitter">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" id="name" name="name" required class="form-input" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" required class="form-input" placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" required class="form-input" placeholder="Project Inquiry">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" required class="form-input form-textarea" rows="5" placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-title">Alexander Chen</h4>
+                    <p class="footer-text">Premium web design and development for modern brands.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Web Design</a></li>
+                        <li><a href="#services">Development</a></li>
+                        <li><a href="#services">E-Commerce</a></li>
+                        <li><a href="#services">Optimization</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Alexander Chen. All rights reserved.</p>
+                <div class="footer-links-bottom">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Contact Button -->
+    <a href="#contact" class="floating-cta" id="floatingCTA" aria-label="Contact me">
+        <span class="floating-icon">✎</span>
+    </a>
+
+    <script src="portfolio_script.js"></script>
+</body>
+</html>
